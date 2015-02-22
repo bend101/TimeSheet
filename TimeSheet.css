@@ -1,0 +1,170 @@
+.mainDiv{
+    border: 1px solid;
+    display: inline-block;
+    width: 994px;
+    height: 500px;
+}
+
+.dayDivs{
+    display: inline-block;
+    width: 178px;
+    border: 1px solid;
+    height: 27px;
+    float: left;
+}
+
+.inputbox-hours{
+    display: inline-block;
+    width: 178px;
+    border: 1px solid black;
+    height: 58px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.row-totalRow{
+    width: 91px;
+    height: 60px;
+    border: 1px solid;
+    left: 910px;
+    top: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowHeader{
+    height: 21px;
+    background-image: url("projectTitleBackground.png");
+}
+
+.header{
+    display: inline-block;
+    width: 904px;
+    font-size: 251%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.headerTitle{
+    float: left;
+    color: white;
+}
+
+.deleteButton{
+    background-image: url("exit.png");
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.dateTotalDiv{
+    display: flex;
+}
+
+.row-innerRow{
+    display: flex;
+}
+
+.previousButton{
+    background-image: url("leftArrow.png");
+    width: 40px;
+    height: 37px;
+    background-color: white;
+    border: 0px;
+    outline: none;
+}
+
+.nextButton{
+    background-image: url("rightArrow.png");
+    width: 40px;
+    height: 37px;
+    background-color: white;
+    border: 0px;
+    outline: none;
+}
+
+
+.containingDiv{
+}
+
+.dateTotal{
+    display: flex;
+    width: 178px;
+    border: 1px solid;
+    height: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeTable-totalDiv{
+    display: flex;
+    width: 94px;
+    border: 1px solid;
+    height: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowTotal{
+    border: 1px solid;
+    display: inline-block;
+    vertical-align: top;
+    width: 92px;
+    height: 500px;
+}
+
+.rowTotalTitle{
+    height: 27px;
+    width: 92px;
+    border: 1px solid;
+    display: inline-block;
+}
+
+.body-sidebar{
+    border: 1px solid black;
+    height: 529px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-addnewproject{
+    border: 1px solid black;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-selectDiv{
+    border: 1px solid black;
+    height: 469px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-bottomdiv{
+    border: 1px solid black;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addProjectButton {
+    background-image: url("projectTitleBackground.png");
+    color: white;
+}
+
+.sidebar-select{
+    width: 175px;
+
+}
+
+.addButton{
+    background-image: url("projectTitleBackground.png");
+    color: white;
+}
+

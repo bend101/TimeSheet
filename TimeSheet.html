@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="TimeSheet.js"></script>
+    <script src="Row.js"></script>
+    <script src="InputBox.js"></script>
+    <script src="DateTotal.js"></script>
+    <script src="Store.js"></script>
+    <script src="TotalsRow.js"></script>
+    <script src="Header.js"></script>
+    <script src="SideBar.js"></script>
+    <script src="utils.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="TimeSheet.css">
+    <script>
+        window.onload=function(){
+            var timeTable=new TimeSheet();
+        }
+    </script>
+</head>
+<body style=" padding:0px; margin:0px; overflow:hidden; display: flex; align-items:flex-end;">
+    <div class="body-sidebar">
+        <div class="sidebar-addnewproject">
+            <input id="inputBox">
+            <button class="addButton">Add</button>
+        </div>
+        <div class="sidebar-selectDiv">
+            <select class="sidebar-select" size="24">
+                <option value="Holiday">Holiday</option>
+                <option value="Sick">Sick</option>
+                <option value="Meetings">Meetings</option>
+                <option value="Client project 1">Client project 1</option>
+                <option value="Client project 2">Client project 2</option>
+                <option value="Client project 3">Client project 3</option>
+                <option value="Client project 4">Client project 4</option>
+                <option value="Client project 5">Client project 5</option>
+            </select>
+        </div>
+        <div class="sidebar-bottomdiv">
+            <button class="addProjectButton">Add Project</button>
+        </div>
+    </div>
+    <div class="containingDiv">
+        <div class="headerDiv">
+            <button id="previousButton" class="previousButton"></button>
+            <div id="header" class="header"></div>
+            <button id="nextButton" class="nextButton"></button>
+        </div>
+        <div class="mainDiv">
+            <div class="dayDivs" >Monday</div>
+            <div class="dayDivs" >Tuesday</div>
+            <div class="dayDivs" >Wednesday</div>
+            <div class="dayDivs" >Thursday</div>
+            <div class="dayDivs" >Friday</div>
+            <div class="rowTotalTitle" >Total</div>
+        </div>
+        <div id="dateTotal" class="dateTotalDiv"></div>
+
+
+    </div>
+
+
+</body>
+</html>
